@@ -109,11 +109,22 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -121,11 +132,31 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  list-style: none;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -140,6 +171,9 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .copyright {
+  margin: 20px 0;
+}
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -168,12 +202,24 @@ aside {
   flex-flow: row wrap;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 60%;
+  margin: 25px 0;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+ .features p {
+  margin: 0;
+ }
 
 /* Reviews */
 
@@ -183,9 +229,16 @@ aside {
   flex-flow: row wrap;
 }
 
-/* ==========================================================================
-   About Page
-   ========================================================================== */
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
+/* --------------------About Page-------------------- */
 
 .mission {
   display: flex;
@@ -201,9 +254,11 @@ aside {
   flex-flow: row wrap;
 }
 
-/* ==========================================================================
-   FAQ Page
-   ========================================================================== */
+.contact-content p {
+  margin: 0;
+}
+
+/* -------------------- FAQ Page   -------------------- */
 
 .faq {
   display: flex;
@@ -217,9 +272,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin-top: 50px;
 }
 
+.faq h2 {
+  margin-bottom: 40px;
+}
 
+.faq-content {
+  margin-bottom: 40px;
+}
 
 
 
